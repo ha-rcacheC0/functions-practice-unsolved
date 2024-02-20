@@ -15,9 +15,10 @@
 
 // Your code goes here
 
-function logMessage() {
-  console.log('Hello, World!')
+function logMessage(message) {
+  return message;
 }
+logMessage("Hello, World!");
 
 
 
