@@ -16,6 +16,13 @@
 
 // Your code goes here...
 
+function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
+  if (arr > val1 && arr < val2) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 
 
