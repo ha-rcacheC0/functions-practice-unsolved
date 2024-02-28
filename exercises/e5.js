@@ -39,8 +39,10 @@ function sumOfTwoIntegers(num1, num2) {
   } else {
     return num1 + num2;
   }
+  
 };
-sumOfTwoIntegers();
+sumOfTwoIntegers(13, 14);
+sumOfTwoIntegers(12, 12);
 
 
 
@@ -56,7 +58,18 @@ sumOfTwoIntegers();
 
 // Your code goes here...
 
-function 
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  if (num1 === 40 || num2 === 40) {
+    return true;
+  } else if (num1 + num2 === 40) {
+    return true;
+  } else {
+    return false;
+  }
+};
+isOneOfThemOrTheirSumIsFourty(40, 13);
+isOneOfThemOrTheirSumIsFourty(22, 18);
+isOneOfThemOrTheirSumIsFourty(22, 16);
 
 
 // === TEST YOURSELF ===
