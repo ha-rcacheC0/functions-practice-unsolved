@@ -11,7 +11,8 @@
 
 function splitFirstAndLastNames(str) {
   return str.split(' ');
-}
+};
+splitFirstAndLastNames();
 
 
 /** =========================
@@ -22,7 +23,9 @@ function splitFirstAndLastNames(str) {
 
 const personAge = function(personObject) {
   return personObject.age;
-}
+};
+
+personAge();
 
 
 /** =========================
@@ -34,7 +37,8 @@ const personAge = function(personObject) {
 
 const isNameInArray = function(arr, name) {
   return arr.includes(name);
-}
+};
+isNameInArray();
 
 
 /** =========================
@@ -53,7 +57,8 @@ const logSecondsUpToMax = function(max) {
       clearInterval(timer);
     }
   }, 1000);
-}
+};
+logSecondsUpToMax();
 
 
 
